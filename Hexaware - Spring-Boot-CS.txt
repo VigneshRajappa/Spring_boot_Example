@@ -1,0 +1,164 @@
+﻿Spring Boot Case Study
+
+
+Question 1:
+Using Spring Boot Insert values in DB
+
+
+ALGORITHM:
+* Create the Post mapping Annotation for calling the API
+* Use Request Body for get the input from the API
+* Call the customer service class for insert the values in DB. 
+
+
+CODING :
+
+
+  
+
+
+
+INPUT :
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT:
+
+
+
+
+  
+
+
+
+QUESTION 2:
+Get All the courses from the DB
+
+
+ALGORITHM:
+* Declare the GET MAPPING annotation for print the details
+* Store the values in the list for printing
+* Call the Customer Service class for get the values
+
+
+CODING : 
+
+
+  
+
+
+
+INPUT : 
+
+
+  
+
+
+
+
+
+
+
+OUTPUT : 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTION 3:
+
+
+Print the details by Course ID
+
+
+ALGORITHM:
+* Declare the GET MAPPING annotation for printing the details in API
+* Using Path Variable we can get the course id from API
+* Pass the course id to customer service we can fetch the details of the customer
+* Here we are using Exception handling when the user insert a wrong course id.
+* And we are printing the details in 400 Bad request format and the reason for error in the API.
+
+
+CODING : 
+
+
+  
+
+
+
+
+
+INPUT 1:
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT 1:
+
+
+  
+
+
+
+INPUT 2:
+
+
+  
+
+
+
+OUTPUT 2:
